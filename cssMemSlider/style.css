@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.4rem;
+  color: #ffffff;
+  text-shadow: 0 0 0.4rem #242424;
+  background-blend-mode: screen;
+  background-color: skyblue;
+}
+
+.container {
+  width: 60vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 1rem 0;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
